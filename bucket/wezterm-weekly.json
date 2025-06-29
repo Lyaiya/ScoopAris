@@ -42,10 +42,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Lyaiya/wezterm-weekly/releases/download/$version/WezTerm-windows-$version.zip"
+                "url": "https://github.com/Lyaiya/wezterm-weekly/releases/download/$version/WezTerm-windows-nightly.zip"
             }
         },
-        "extract_dir": "WezTerm-windows-$version",
+        "extract_dir": "WezTerm-windows-nightly",
         "hash": {
             "url": "$url.sha256"
         }
