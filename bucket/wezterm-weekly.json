@@ -44,7 +44,7 @@
                 "url": "https://github.com/Lyaiya/wezterm-weekly/releases/download/$version/WezTerm-windows-nightly.zip"
             }
         },
-        "extract_dir": "WezTerm-windows-nightly",
+        "extract_dir": "weekly-$version",
         "hash": {
             "url": "$url.sha256"
         }
