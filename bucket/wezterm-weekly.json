@@ -36,8 +36,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://github.com/Lyaiya/wezterm-weekly",
-        "regex": "WezTerm-windows-([\\w-]+)"
+        "github": "https://github.com/Lyaiya/wezterm-weekly"
     },
     "autoupdate": {
         "architecture": {
