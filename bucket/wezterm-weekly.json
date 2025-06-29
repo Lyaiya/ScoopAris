@@ -15,7 +15,8 @@
     },
     "pre_install": [
         "$folder = Get-ChildItem $dir | Where-Object { $_.PSIsContainer } | Select-Object -First 1",
-        "if ($folder) { Move-Item \"$($folder.FullName)\\*\" $dir -Force }"
+        "if ($folder) { Move-Item \"$($folder.FullName)\\*\" $dir -Force }",
+        "if ($folder) { Remove-Item $folder.FullName -Recurse -Force }"
     ],
     "post_install": [
         "$weztermPath = \"$dir\\wezterm-gui.exe\".Replace('\\', '\\\\')",
