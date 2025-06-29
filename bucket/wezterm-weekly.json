@@ -13,7 +13,7 @@
             "hash": "cb808e4de4650a8ff1b4c4f34ca4c7e33413cbb6e772d51dbc1830c2db1e75c5"
         }
     },
-    "extract_dir": "WezTerm-windows-20250629",
+    "extract_dir": "WezTerm-windows-nightly",
     "post_install": [
         "$weztermPath = \"$dir\\wezterm-gui.exe\".Replace('\\', '\\\\')",
         "'install-context', 'uninstall-context' | ForEach-Object {",
